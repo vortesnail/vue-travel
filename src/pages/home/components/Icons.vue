@@ -62,10 +62,6 @@ export default {
         id: '0008',
         imgUrl: snowman,
         desc: '来打雪仗'
-      }, {
-        id: '0009',
-        imgUrl: bable,
-        desc: '热门书籍'
       }]
     }
   },
@@ -91,38 +87,40 @@ export default {
   .icons >>> .swiper-container
     height: 0
     padding-bottom: 50%
-  .icon
-    position: relative
-    overflow: hidden
-    float: left
-    width: 25%
-    height: 0
-    padding-bottom: 25%
-    .icon-img
-      position: absolute
-      top: 0
-      left: 0
-      right: 0
-      bottom: .44rem
-      box-sizing: border-box
-      padding: .1rem
-      display: flex
-      align-items: center
-      justify-content: center
-      .icon-img-content
-        display: block
-        height: 80%
-        padding: .18rem
-        border-radius: .4rem
-        background-color: #00bcd4
-    .icon-desc
-      position: absolute
-      left: 0
-      right: 0
-      bottom: 0
-      height: .44rem
-      line-height: .44rem
-      color: $darkTextColor
-      text-align: center
-      ellipsis()
+  .icons
+    margin-top: .1rem
+    .icon
+      position: relative
+      overflow: hidden
+      float: left
+      width: 25%
+      height: 0
+      padding-bottom: 25%
+      .icon-img
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: .44rem
+        box-sizing: border-box
+        padding: .1rem
+        display: flex
+        align-items: center
+        justify-content: center
+        .icon-img-content
+          display: block
+          height: 80%
+          padding: .18rem
+          border-radius: .4rem
+          background-color: #00bcd4
+      .icon-desc
+        position: absolute
+        left: 0
+        right: 0
+        bottom: 0
+        height: .44rem
+        line-height: .44rem
+        color: $darkTextColor
+        text-align: center
+        ellipsis()
 </style>
